@@ -1,24 +1,12 @@
-# exchanger
+VUE-application for currency exchange
+=====================
 
-## Project setup
-```
-npm install
-```
+    The application allows you to exchange currencies, namely bitcoins and hryvnia. 
+    Data with the current rate is pulled from the [site](https://kuna.io/api/v2/tickers/btcuah).
+    The application contains localization for Russian, Ukrainian and English.
+    The currency has a certain reserve that cannot be exceeded.
+    If the exchange is successful, the user will be redirected to the '/success' page (private, i.e. you cannot go without making an exchange).
+    
+    Link in the description of the repository.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[View](https://exchanger-dl.herokuapp.com/)
