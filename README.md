@@ -10,3 +10,4 @@ VUE-application for currency exchange
     Link in the description of the repository.
 
 [View](https://exchanger-dl.herokuapp.com/)
+
